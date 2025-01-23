@@ -1,0 +1,20 @@
+{
+    "FPT Software": 20,
+    "VinGroup": 15,
+    "Viettel": 20,
+    "VNG Corporation": 15,
+    "Momo": 15,
+    "Shopee": 20,
+    "Lazada": 20,
+    "Grab": 20,
+    "Google": 25,
+    "Microsoft": 25,
+    "Amazon": 25,
+    "Startups (1-10 employees)": 5,
+    "Startups (11-50 employees)": 10,
+    "Startups (51-100 employees)": 15,
+    "Scale-ups (101-500 employees)": 20,
+    "Established Companies (501-1000 employees)": 25,
+    "MNCs (1000+ employees)": 25,
+    "Others": 10
+  }

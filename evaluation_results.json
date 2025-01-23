@@ -1,0 +1,107 @@
+{
+    "cv_data": {
+        "name": "Lê Minh Lộc",
+        "location": "Da Nang, Vietnam",
+        "social": [
+            "github.com/leminhloc2008",
+            "Codeforces"
+        ],
+        "email": "minhlocle08@gmail.com",
+        "linkedin": null,
+        "phone": "+84 0916 960 653",
+        "intro": "Currently studying with Computer Science specialization. Cumulative GPA: 9.1. Recognized for exceptional academic performance during the 2023–2024 school years.",
+        "education": [
+            {
+                "school": "Le Quy Don High School For the Gifted, Da Nang, Vietnam",
+                "class_year": "September 2023 – May 2026",
+                "major": "Computer Science",
+                "minor": null,
+                "gpa": 9.1
+            }
+        ],
+        "professional_experience": [
+            {
+                "company": "Full Stack Developer Vietnam",
+                "location": "Da Nang, Vietnam",
+                "position": "Project Lead",
+                "seniority": "National Champion",
+                "duration": "2024",
+                "description": "Developed comprehensive safety system with three core technologies: Smart trajectory analysis, Audio processing, Advanced emergency response system."
+            },
+            {
+                "company": "Web Developer United States",
+                "location": "United States",
+                "position": "UI/UX Designer",
+                "seniority": "GDUSA Design Awards Winner",
+                "duration": "2024",
+                "description": "Collaborated in a 4 members team. Selected as winner among 8,000+ entries in the 61st GDUSA Design Awards."
+            }
+        ],
+        "projects": [
+            {
+                "name": "Intelligent Monitoring System to Assist the Elderly and Patients",
+                "link": null,
+                "tech": "Python, machine learning libraries",
+                "duration": "Ongoing",
+                "description": "Developed a comprehensive monitoring system that detects falls, distinguishes between falling and lying down, recognizes emotions, and monitors daily activities."
+            },
+            {
+                "name": "Driver Fatigue Monitoring System",
+                "link": null,
+                "tech": "Computer vision techniques",
+                "duration": "Ongoing",
+                "description": "Created a system to monitor driver fatigue by detecting drowsy postures and triggering alarms to prevent accidents."
+            }
+        ],
+        "awards": [
+            {
+                "contest": "GDUSA Design Awards",
+                "prize": "Winner - Top 10% Nationally",
+                "description": "Recognized in annual end-of-year best-of-year competition. Design to be featured in GDUSA Design Annual showcase.",
+                "role": null,
+                "link": null,
+                "time": "2024"
+            },
+            {
+                "contest": "UNICEF YouthOn Hackathon",
+                "prize": "Winner",
+                "description": "Implemented machine learning models for emotion recognition. Developed real-time behavior analysis for detecting self-harm risks.",
+                "role": null,
+                "link": null,
+                "time": "October 2023"
+            }
+        ],
+        "certifications": [],
+        "skills": [
+            {
+                "name": "Programming Languages",
+                "list": [
+                    "Python",
+                    "C++",
+                    "C#",
+                    "Java",
+                    "JavaScript",
+                    "GDScript"
+                ]
+            },
+            {
+                "name": "3D Design and CAD",
+                "list": [
+                    "Onshape",
+                    "Blender"
+                ]
+            }
+        ]
+    },
+    "scores": {
+        "education": 350.0,
+        "experience": 510.0,
+        "projects": 1475.0,
+        "awards": 2260.0,
+        "certifications": 0.0,
+        "total_score": 823.0,
+        "status": "Pass"
+    },
+    "ai_summarization": "Lê Minh Lộc is a Computer Science student in Da Nang, Vietnam, with a cumulative GPA of 9.1. He attended Le Quy Don High School For the Gifted from September 2023 to May 2026. His professional experience includes roles as a Project Lead at Full Stack Developer Vietnam, where he developed a safety system, and as a UI/UX Designer in the United States, winning the GDUSA Design Awards. His ongoing projects include developing an Intelligent Monitoring System for the elderly using Python and machine learning, and a Driver Fatigue Monitoring System using computer vision. He has won awards such as the GDUSA Design Awards and the UNICEF YouthOn Hackathon. His skills include programming languages like Python, C++, and JavaScript, and 3D design tools like Onshape and Blender. His contact information includes a GitHub profile, Codeforces account, and phone number, but no LinkedIn profile.",
+    "ai_evaluation": "Here's a detailed evaluation of Lê Minh Lộc's resume:\n\n**1. Contact Information:**\n   - The resume includes essential contact details such as email and phone number. However, the LinkedIn profile is missing, which is typically helpful for professional networking. If available, this should be added.\n   - The social links provided are relevant to the candidate's field, showing engagement with platforms like GitHub and Codeforces.\n\n**2. Introduction:**\n   - The introduction succinctly highlights the candidate's academic achievement with a strong GPA of 9.1. It sets a positive tone by mentioning recognition for exceptional performance, which is impressive and relevant for academic-related opportunities or internships.\n\n**3. Education:**\n   - The education section is clear, showing current enrollment in a prestigious high school for gifted students with a focus on Computer Science. The high GPA is highlighted, which is a strong point for an early-career candidate.\n\n**4. Professional Experience:**\n   - The experience section is rich with notable achievements, given the candidate's current educational level. Holding a 'Project Lead' position and being a 'National Champion' reflects leadership and expertise. However, the term 'National Champion' is ambiguous and would benefit from further clarification.\n   - The role as a 'UI/UX Designer' in a U.S.-based company with an award win speaks to international experience and high-level design skills, which are significant achievements.\n   - The descriptions are outcome-focused, which is excellent for showcasing impact. However, specifying the technologies used in these roles could add depth to the descriptions.\n\n**5. Projects:**\n   - The projects are well-documented, with a focus on ongoing work in innovative areas like intelligent monitoring and driver fatigue systems. This demonstrates the candidate's capability in applying academic knowledge to real-world problems.\n   - Including technologies used in each project is beneficial. However, links to repositories or demos (if available) would enhance this section significantly by allowing potential employers to see the work firsthand.\n\n**6. Awards:**\n   - The awards section is strong, showcasing significant achievements like winning the GDUSA Design Awards and UNICEF YouthOn Hackathon. These accolades help differentiate the candidate from peers.\n   - The descriptions provide context, but including more details about the candidate's specific role or contributions could strengthen this section.\n\n**7. Skills:**\n   - A comprehensive list of programming languages and tools signals a broad skill set. It's advantageous to have proficiency in both high-level and scripting languages, as well as 3D design tools.\n   - This section could be improved by indicating the proficiency level (beginner, intermediate, advanced) for each skill, which helps employers quickly gauge competency.\n\n**8. Certifications:**\n   - Currently, there are no certifications listed. Obtaining relevant certifications could bolster the resume by formally recognizing the candidate's skills and dedication to continuous learning.\n\n**Overall Impression:**\nLê Minh Lộc's resume is impressive, especially considering the candidate's current educational status. The document effectively highlights academic excellence, practical experience, and achievements in competitive environments. To further enhance the resume, Lộc should consider adding a LinkedIn profile, providing more detailed descriptions of roles and projects, and pursuing relevant certifications. These additions would round out an already strong resume and provide more comprehensive insight into the candidate's capabilities and potential."
+}
