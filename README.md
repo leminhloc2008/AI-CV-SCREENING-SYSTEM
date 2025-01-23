@@ -1,15 +1,3 @@
-# AI CV Screening System
-
-## Overview
-
-The **AI CV Screening System** is a Python-based application designed to automate the process of screening and evaluating resumes (CVs). It uses a combination of **rule-based scoring**, **semantic analysis**, and **LLM-powered summarization and evaluation** to provide a fair, accurate, and transparent assessment of candidates. The system is tailored for the Vietnamese job market but can be adapted for other regions.
-
-### Key Features
-- Extracts structured data from CVs (PDF) using OCR and LLM (GPT-4o).
-- Combines rule-based scoring, semantic analysis, and LLM fallback for fairness and accuracy.
-- Generates concise summaries and detailed evaluations of CVs using AI.
-- Incorporates Vietnam-specific knowledge (university rankings, company sizes) via JSON-based lookup files.
-- Exports evaluation results to a JSON file for further analysis or sharing.
 
 ---
 
