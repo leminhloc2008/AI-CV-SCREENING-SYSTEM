@@ -64,7 +64,7 @@ export_to_json(evaluation_info, "evaluation_results.json")
 ### Run the API server
 To run the API server:
 ```python
-python -m uvicorn app.main:app --reload
+uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 ---
 
@@ -85,11 +85,10 @@ python -m uvicorn app.main:app --reload
 ## Testing
 
 To run unit tests:
-```python
-import requests
-
-url = "http://localhost:8000/api/evaluate-cv"
-files = {"file": ("cv.pdf", open("path/to/cv.pdf", "rb"), "application/pdf")}
-response = requests.post(url, files=files)
-print(response.json())
+- First add your pdf cv into the root folder
+- Then change the path of the cv in test_api.py
+- After that run 
+```bash
+cd app
+python test_api.py
 ```
