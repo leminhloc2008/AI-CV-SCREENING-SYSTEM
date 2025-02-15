@@ -1,31 +1,40 @@
-from openai import OpenAI
+from app.utils.openai_client import openai_client
 from dotenv import load_dotenv
 import os
 from app.models.resume import Resume
 
 load_dotenv()
 
-def evaluate_resume(resume: Resume) -> str:
+def evaluate_resume(resume: Resume, status: str) -> str:
     """
-    Evaluate a resume using OpenAI's API.
+    Evaluate a resume using OpenAI's API and provide reasoning for the status.
     """
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    client = openai_client.get_client()
     
-    prompt = f"Please evaluate the following resume:\n{resume}"
+    prompt = f"""Please provide detailed reasoning for why this resume received a {status} status:
+    {resume}
+    
+    Provide specific reasons based on:
+    - Education quality and relevance
+    - Professional experience depth and relevance
+    - Project quality and impact
+    - Skills alignment with requirements
+    - Any other relevant factors
+    
+    Be concise but specific, focusing on key decision factors.
+    """
     
     response = client.chat.completions.create(
         model="gpt-4o",  
         messages=[
-            {"role": "system", "content": "You are a professional resume evaluator. Provide a detailed evaluation of the resume."},
+            {"role": "system", "content": "You are a professional resume evaluator. Provide specific reasoning for the evaluation status."},
             {"role": "user", "content": prompt}
         ],
         max_tokens=1000,
-        temperature=0.7
+        temperature=0
     )
     
-    evaluation = response.choices[0].message.content
-    
-    return evaluation
+    return response.choices[0].message.content
 
 def format_resume_for_evaluation(resume: Resume) -> str:
     """

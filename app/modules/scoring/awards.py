@@ -4,6 +4,7 @@ import os
 from app.models.resume import AwardItem
 from app.models.scoring_rules import SCORING_RULES
 from typing import List, Optional
+from app.utils.openai_client import openai_client
 
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
@@ -12,7 +13,7 @@ def infer_contest_prestige(contest: str) -> int:
     """
     Use LLM to infer contest prestige if not found in the JSON file.
     """
-    client = OpenAI(api_key=openai_api_key)
+    client = openai_client.get_client()
     
     prompt = f"""
     Based on the following contest name, provide a prestige score between 0 and 30, where 30 is the highest.
@@ -37,33 +38,11 @@ def infer_contest_prestige(contest: str) -> int:
 
 def calculate_awards_score(awards: List[AwardItem]) -> float:
     """
-    Calculate the awards score with LLM fallback for unknown contests.
+    Calculate Awards Score.
+    Each award is worth 2 points, with a maximum of 10 points.
     """
-    total_score = 0.0
-
-    for award in awards:
-        # Contest Prestige (30%)
-        contest_score = infer_contest_prestige(award.contest) * SCORING_RULES["awards"]["contest"]
-        
-        # Prize (25%)
-        prize_score = calculate_prize_score(award.prize) * SCORING_RULES["awards"]["prize"]
-        
-        # Description (25%)
-        description_score = calculate_description_score(award.description) * SCORING_RULES["awards"]["description"]
-        
-        # Role (10%)
-        role_score = 10 if is_technical_role(award.role) else 0
-        
-        # Link (5%)
-        link_score = 5 if award.link else 0
-        
-        # Time (5%)
-        time_score = 5 if award.time else 0
-        
-        # Total Award Score
-        total_score += contest_score + prize_score + description_score + role_score + link_score + time_score
-
-    return total_score
+    score = len(awards) * 2
+    return min(score, 10)
 
 def calculate_prize_score(prize: str) -> int:
     """

@@ -1,0 +1,220 @@
+{
+  "file_name": "cv1.pdf",
+  "processed_at": "2025-02-15T11:30:04.125356",
+  "cv_data": {
+    "name": "Linh Gia Nguyen",
+    "location": "HCMC, Vietnam",
+    "social": [],
+    "email": "nglinh@aseanyouth.net",
+    "linkedin": "",
+    "phone": "+84 983182346",
+    "intro": "",
+    "education": [
+      {
+        "school": "Nguyen Du Secondary School",
+        "class_year": "2022",
+        "major": "",
+        "minor": null,
+        "gpa": null
+      },
+      {
+        "school": "Tran Dai Nghia High School for the Gifted",
+        "class_year": "Expected May 2025",
+        "major": "",
+        "minor": null,
+        "gpa": 9.8
+      }
+    ],
+    "professional_experience": [
+      {
+        "company": "University of South Florida - Laboratory for Advanced Materials and Sensor Technologies",
+        "location": "Remote",
+        "position": "Research Assistant",
+        "seniority": "",
+        "duration": "2022 - Present",
+        "description": "Supervised by Professor Manh-Huong Phan. Involved in multiple research projects related to magnetic sensors and AI-powered diagnostic technologies."
+      },
+      {
+        "company": "New York Academy of Sciences",
+        "location": "Remote",
+        "position": "Projects Team Leader & Researcher",
+        "seniority": "",
+        "duration": "2023 - Present",
+        "description": "Led a team to develop technology-driven applications for education and health, qualified as a Young Member."
+      },
+      {
+        "company": "University Medical Center HCMC",
+        "location": "HCMC",
+        "position": "Research Intern",
+        "seniority": "",
+        "duration": "2023 - Present",
+        "description": "Developed machine learning models for respiratory disease screening, collected and analyzed patient data."
+      },
+      {
+        "company": "FPT Software Company",
+        "location": "HCMC",
+        "position": "Python Web Developer Intern",
+        "seniority": "",
+        "duration": "July 2024 - September 2024",
+        "description": "Developed AquaEmi for monitoring water quality using AI and IoT, designed predictive models for water quality parameters."
+      }
+    ],
+    "projects": [
+      {
+        "name": "A Novel Magnetic Respiratory Sensor for Human Healthcare",
+        "link": null,
+        "tech": "Magnetic sensors",
+        "duration": "",
+        "description": "Research project published by MDPI."
+      },
+      {
+        "name": "Magnetoimpedance Biosensors and Real-Time Healthcare Monitors",
+        "link": null,
+        "tech": "Biosensors",
+        "duration": "",
+        "description": "Research project published by MDPI."
+      },
+      {
+        "name": "Sensitivity Analysis and Parameter Exploration",
+        "link": null,
+        "tech": "",
+        "duration": "",
+        "description": "Co-authored research paper recognized by BMES in 2023."
+      },
+      {
+        "name": "AI-DURST: AI-Powered Diagnostic Ultra-Sensitive Respiratory Magnetic Sensor Technology",
+        "link": null,
+        "tech": "AI, Magnetic sensors",
+        "duration": "",
+        "description": "Developed AI-powered diagnostic algorithm for pulmonary diseases, granted by VinIF."
+      },
+      {
+        "name": "Respiratory Human Identification by Magnetic Sensors",
+        "link": null,
+        "tech": "Magnetic sensors",
+        "duration": "",
+        "description": "Led research segment in Vietnam, data collection and analysis ongoing."
+      },
+      {
+        "name": "EduTech+: Enhancing Learning Efficiency through AI, AR, and VR Integration",
+        "link": null,
+        "tech": "AI, AR, VR",
+        "duration": "",
+        "description": "Designed an interactive application for educational experiences, improved student engagement by 15%."
+      },
+      {
+        "name": "AI-Well: Personalized Health Monitoring for Lifestyle Improvement",
+        "link": null,
+        "tech": "AI",
+        "duration": "",
+        "description": "Developed health-tracking application, increased user activity levels by 20%."
+      },
+      {
+        "name": "AquaEmi - A System for Monitoring and Managing Water Quality",
+        "link": null,
+        "tech": "AI, IoT, Django",
+        "duration": "",
+        "description": "Developed system for Mekong River, predictive model for water quality with MAPE of 8.6%."
+      }
+    ],
+    "awards": [
+      {
+        "contest": "April Olympic Festival 2023-2024",
+        "prize": "Gold Medal in Literature",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "Code Like a Girl Competition 2023",
+        "prize": "Top 14 Teams in the Final Round",
+        "description": "Fullstack Developer",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "CiC Creative Entrepreneurship Ideas Competition 2023",
+        "prize": "Top 15 Teams in the Final Round",
+        "description": "Project Manager & Business Analyst",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "G-College Hackathon Competition 2024",
+        "prize": "Top 6 Teams in the Final Round",
+        "description": "Project Manager",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "Techcombank HCMC International Marathon & VnExpress Marathon HCMC Midnight",
+        "prize": "Completed 10km and 21km distances",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": ""
+      }
+    ],
+    "certifications": [],
+    "skills": [
+      {
+        "name": "Programming Language",
+        "list": [
+          "Python",
+          "MySQL",
+          "HTML/CSS",
+          "JavaScript",
+          "MATLAB",
+          "Java"
+        ]
+      },
+      {
+        "name": "Languages",
+        "list": [
+          "Vietnamese (Native)",
+          "English (Fluent)",
+          "Chinese (Intermediate)",
+          "French (Beginner)"
+        ]
+      },
+      {
+        "name": "Sports",
+        "list": [
+          "Basketball",
+          "Swimming",
+          "Marathon"
+        ]
+      },
+      {
+        "name": "Skills",
+        "list": [
+          "Writing Fiction",
+          "Scientific Research",
+          "Playing Guitar",
+          "Cooking"
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "education": 84.5,
+    "experience": 85,
+    "projects": 75,
+    "awards": 80,
+    "certifications": 0.0
+  },
+  "weighted_scores": {
+    "education": 12.674999999999999,
+    "experience": 21.25,
+    "projects": 15.0,
+    "awards": 12.0,
+    "certifications": 0.0
+  },
+  "status": "Consider",
+  "total_score": 60.925,
+  "ai_reason": "The resume of Linh Gia Nguyen received a \"Consider\" status based on the following evaluation:\n\n1. **Education Quality and Relevance:**\n   - Linh is currently attending Tran Dai Nghia High School for the Gifted, with an impressive GPA of 9.8, indicating strong academic performance. However, the education is still at the high school level, which may limit the depth of specialized knowledge typically expected for more advanced roles.\n\n2. **Professional Experience Depth and Relevance:**\n   - Linh has accumulated significant research experience, particularly in advanced materials and sensor technologies, which is highly relevant to roles in scientific research and technology development. The role as a Research Assistant at the University of South Florida and as a Projects Team Leader at the New York Academy of Sciences demonstrates leadership and technical skills.\n   - The internship at FPT Software as a Python Web Developer is relevant for roles in software development, showcasing practical application of programming skills.\n\n3. **Project Quality and Impact:**\n   - The projects listed are impressive, with several being published or recognized by reputable organizations like MDPI and BMES. Projects such as \"AI-DURST\" and \"AquaEmi\" demonstrate innovation and practical impact, particularly in healthcare and environmental monitoring.\n   - The breadth of projects across different technologies (AI, IoT, AR/VR) shows versatility and a strong ability to apply technical skills to real-world problems.\n\n4. **Skills Alignment with Requirements:**\n   - Linh possesses a diverse set of programming skills (Python, MySQL, JavaScript, etc.) that are highly relevant to technology and research roles. Language skills in English and Chinese add value for international collaboration.\n   - The inclusion of sports and personal skills like writing and playing guitar, while showcasing a well-rounded personality, may not directly align with professional requirements but indicate strong personal development.\n\n5. **Other Relevant Factors:**\n   - The awards and recognitions, such as the Gold Medal in Literature and top placements in competitions, highlight a competitive and high-achieving nature, which is desirable in many professional settings.\n\nOverall, Linh's resume demonstrates strong potential and relevant experience for entry-level roles or internships in research and technology fields. However, the current educational level and the need for further specialization may be factors for consideration in more advanced positions."
+}

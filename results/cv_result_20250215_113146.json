@@ -1,0 +1,134 @@
+{
+  "file_name": "Linh Dinh_Resume_ProjectX.pdf",
+  "processed_at": "2025-02-15T11:31:46.012432",
+  "cv_data": {
+    "name": "Đinh Mai Phương Linh",
+    "location": "Hanoi, Vietnam",
+    "social": [
+      "Linh Đinh"
+    ],
+    "email": "dinhmai.plinh@gmail.com",
+    "linkedin": "",
+    "phone": "(+84) 0916214080",
+    "intro": "As a senior student majoring in Business Data Analytics Advanced Program in NEU; with experience in Data Analytics at VNPT - Vinaphone Hanoi and eJOY English and Data Science knowledge acquired at NEU, full operational command of English (IELTS 8.0), I am excited to use my knowledge and skills to bring positive impact to the company and the community.",
+    "education": [
+      {
+        "school": "National Economics University",
+        "class_year": "2024",
+        "major": "Business Analytics",
+        "minor": null,
+        "gpa": 3.64
+      }
+    ],
+    "professional_experience": [
+      {
+        "company": "VNPT Hanoi - Business Center",
+        "location": "Hanoi, Vietnam",
+        "position": "Data Analyst intern",
+        "seniority": "",
+        "duration": "Feb 2024 - Current",
+        "description": "Propose actionable steps to achieve enterprise goals by analyzing data about business customers. Assist building Power BI reports."
+      },
+      {
+        "company": "eJOY Learning JSC.",
+        "location": "Hanoi, Vietnam",
+        "position": "Data Analyst intern",
+        "seniority": "",
+        "duration": "Jan 2022 – Nov 2021",
+        "description": "Collect data through multiple channels (questionnaires, group interview, mail). Perform daily data reporting using Google Analytics, Amplitude. Perform monthly marketing plan evaluation. Construct data analytics flow for a new digital product."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Using RapidMiner and Utilize ML power to solve 7 business problems",
+        "link": null,
+        "tech": "RapidMiner, ML",
+        "duration": "",
+        "description": "Scored 9.5/10. Memo presenting results."
+      },
+      {
+        "name": "Using Linear Regression and Decision Tree Model to aid Movie Investors",
+        "link": null,
+        "tech": "Scikit-learn, Linear Regression, Decision Tree",
+        "duration": "",
+        "description": "Scored 9.3/10. Utilized Scikit-learn library to train two 80% accuracy models to predict profitability and identify profitable movie genres. Presentation. Grader: Mitch Cochran, MA, MHS, CISM, CGCIO."
+      },
+      {
+        "name": "Using Python to wrangle and visualize Logistic data",
+        "link": null,
+        "tech": "Python",
+        "duration": "",
+        "description": "Scored 8.5/10. Combine different sources of data, wrangle to visualize data. Presentation."
+      }
+    ],
+    "awards": [],
+    "certifications": [
+      {
+        "name": "IELTS 8.0",
+        "link": "",
+        "org": ""
+      },
+      {
+        "name": "ICDL 1630/1800",
+        "link": "",
+        "org": ""
+      },
+      {
+        "name": "Data Science Foundational course",
+        "link": "",
+        "org": ""
+      },
+      {
+        "name": "Google Data Analytics",
+        "link": "",
+        "org": ""
+      },
+      {
+        "name": "IBM Data Science Professional Certificate",
+        "link": "",
+        "org": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "Technical Skills",
+        "list": [
+          "Data mining (R, EDA, ML models)",
+          "Basics of Python (Python, Visualization)",
+          "Big data Analytics (NN, Apache Hadoop, TensorFlow, Scikit-Learn, Pandas)",
+          "Advanced Data Analytics (AutoML, Conformal Prediction, Double ML for causal inference)",
+          "Business Analytics (SQL, SSMS, Probability for DS, NoSQL)",
+          "Database Management and Reporting for Business (DBM essentials, Power BI)",
+          "Calculus 1"
+        ]
+      },
+      {
+        "name": "Interpersonal Skills",
+        "list": [
+          "Full command of English",
+          "Presentation",
+          "Effective Communicator",
+          "Teamwork",
+          "Highly Adaptable"
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "education": 99.1,
+    "experience": 85,
+    "projects": 75,
+    "awards": 0.0,
+    "certifications": 50
+  },
+  "weighted_scores": {
+    "education": 14.864999999999998,
+    "experience": 21.25,
+    "projects": 15.0,
+    "awards": 0.0,
+    "certifications": 2.5
+  },
+  "status": "Consider",
+  "total_score": 53.614999999999995,
+  "ai_reason": "The resume of Đinh Mai Phương Linh received a \"Consider\" status based on the following factors:\n\n1. **Education Quality and Relevance**: \n   - The candidate is pursuing a degree in Business Analytics from the National Economics University, which is relevant to the field of data analytics. The GPA of 3.64 indicates strong academic performance.\n\n2. **Professional Experience Depth and Relevance**: \n   - The candidate has relevant internship experience as a Data Analyst at VNPT Hanoi and eJOY Learning JSC. These roles involved practical data analysis tasks such as building Power BI reports and using Google Analytics, which are directly applicable to data analytics positions.\n\n3. **Project Quality and Impact**: \n   - The candidate has completed several projects using tools and techniques like RapidMiner, Scikit-learn, and Python, achieving high scores. These projects demonstrate the ability to apply machine learning and data visualization skills to solve business problems, which is valuable for a data analytics role.\n\n4. **Skills Alignment with Requirements**: \n   - The candidate possesses a comprehensive set of technical skills, including data mining, Python, SQL, and Power BI, which align well with typical data analytics job requirements. Additionally, the candidate's interpersonal skills, such as effective communication and teamwork, are essential for collaborative work environments.\n\n5. **Certifications**: \n   - The candidate holds several relevant certifications, including Google Data Analytics and IBM Data Science Professional Certificate, which further validate their expertise and commitment to the field.\n\n6. **Language Proficiency**: \n   - An IELTS score of 8.0 indicates a high level of English proficiency, which is beneficial for roles requiring communication in English.\n\nOverall, the combination of relevant education, practical experience, strong project work, and a well-rounded skill set makes the candidate a strong contender for data analytics positions, warranting a \"Consider\" status. However, the lack of a LinkedIn profile and the short duration of some experiences may have limited the resume from receiving a higher status."
+}

@@ -1,0 +1,197 @@
+{
+  "file_name": "Project X - Bao Ngoc.pdf",
+  "processed_at": "2025-02-15T11:31:11.049665",
+  "cv_data": {
+    "name": "LUU HOANG BAO NGOC",
+    "location": "Ho Chi Minh city, Vietnam",
+    "social": [],
+    "email": "baongocluu.work@gmail.com",
+    "linkedin": "",
+    "phone": "0645583805",
+    "intro": "",
+    "education": [
+      {
+        "school": "Amsterdam University College",
+        "class_year": "2023-2026",
+        "major": "Economic & Information",
+        "minor": null,
+        "gpa": null
+      },
+      {
+        "school": "High school for the gifted",
+        "class_year": "2020-2023",
+        "major": "",
+        "minor": null,
+        "gpa": 9.6
+      }
+    ],
+    "professional_experience": [
+      {
+        "company": "POTATO CLOTHING",
+        "location": "",
+        "position": "Sales Department",
+        "seniority": "",
+        "duration": "",
+        "description": "Famous uniform brand in Ho Chi Minh, ranked number 1 in uniform sector for students. Building account to collect databases, reach out to customers. Target nearly 100 customers in different areas of Vietnam."
+      },
+      {
+        "company": "VSNL",
+        "location": "",
+        "position": "Head of External Relations",
+        "seniority": "",
+        "duration": "",
+        "description": "Student Association of Vietnamese students in Netherlands. Crafting proposals and cultivating relationships with external stakeholders. Coordinating cash flow of more than 1000 euro for 4 major events. Leading and training 5 team members from different institutions to execute assigned tasks."
+      },
+      {
+        "company": "VELA",
+        "location": "",
+        "position": "Teacher and Counselor",
+        "seniority": "",
+        "duration": "",
+        "description": "Educational organization that liaised more than 200 students to study abroad with a tight budget. Teach IELTS writing, speaking and SAT for more than 20 students. Provide students with orientations about careers and majors. Guiding over 10 students in refining profiles and preparing documents for university applications."
+      },
+      {
+        "company": "ABBOTT LAB",
+        "location": "",
+        "position": "STEM Highschool Intern",
+        "seniority": "",
+        "duration": "",
+        "description": "Conduct Sales Force Automation Activities. Getting data from SFA Systems, and conducting a pipeline to automate analytic reports. Leverage BI Tools and other software applications to conduct data mining, data analytics, predictions, and visualize in dashboards and reports. Support to develop advanced analytics data model."
+      }
+    ],
+    "projects": [
+      {
+        "name": "LOTH",
+        "link": null,
+        "tech": "",
+        "duration": "Sep 2021 - May 2022",
+        "description": "A project with practical solutions for students' mental health and offer interesting courses for children at SOS village."
+      },
+      {
+        "name": "SUGAR VIETNAM",
+        "link": null,
+        "tech": "",
+        "duration": "Jan 2022 - June 2023",
+        "description": "A project helping underprivileged students to pursue education. Raise 10 million VND for orphanages. Supporting the academic pursuits of 20 children. Recruit over 40 volunteers to teach children at orphanage. Organizing a ceremony with more than 100 participants."
+      }
+    ],
+    "awards": [
+      {
+        "contest": "Young Investor Competition",
+        "prize": "Top 10 over 1700",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "ASF scholarship",
+        "prize": "Full-ride",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "APU scholarship",
+        "prize": "80% scholarship",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "SP Jain scholarship",
+        "prize": "85% scholarship",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "Aalto scholarship",
+        "prize": "100% scholarship",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "HAN’s university scholarship",
+        "prize": "",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "VHBC - business case competition",
+        "prize": "Top 20",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "The Business Case Competition – Southern Business Case Competition",
+        "prize": "Top 6",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": ""
+      },
+      {
+        "contest": "TEB - Bootcamp",
+        "prize": "Consolation prize",
+        "description": "Bootcamp helps develop teen's entrepreneurship.",
+        "role": null,
+        "link": null,
+        "time": ""
+      }
+    ],
+    "certifications": [],
+    "skills": [
+      {
+        "name": "Technical Skills",
+        "list": [
+          "Google Suite",
+          "Microsoft Office",
+          "Project management",
+          "Teaching skill"
+        ]
+      },
+      {
+        "name": "Languages",
+        "list": [
+          "English (Intermediate)",
+          "Vietnamese (Advanced)",
+          "Dutch (Beginner)"
+        ]
+      },
+      {
+        "name": "Soft Skills",
+        "list": [
+          "Time management",
+          "Motivation for self-studying"
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "education": 90,
+    "experience": 75,
+    "projects": 55,
+    "awards": 80,
+    "certifications": 0.0
+  },
+  "weighted_scores": {
+    "education": 13.5,
+    "experience": 18.75,
+    "projects": 11.0,
+    "awards": 12.0,
+    "certifications": 0.0
+  },
+  "status": "Consider",
+  "total_score": 55.25,
+  "ai_reason": "The resume for Luu Hoang Bao Ngoc received a \"Consider\" status based on the following factors:\n\n1. **Education Quality and Relevance:**\n   - The candidate is currently pursuing a degree in Economic & Information at Amsterdam University College, which is a reputable institution. This major is relevant to roles in data analysis, economics, and business, aligning with some of the professional experiences listed.\n   - The high GPA of 9.6 from a prestigious high school for the gifted indicates strong academic performance, which is a positive indicator of the candidate's capability and dedication.\n\n2. **Professional Experience Depth and Relevance:**\n   - The candidate has diverse professional experiences across different sectors, including sales, external relations, education, and data analytics. This breadth of experience demonstrates adaptability and a broad skill set.\n   - The role at ABBOTT LAB as a STEM Highschool Intern is particularly relevant to data-driven roles, as it involved data mining, analytics, and the use of BI tools, which are valuable skills in many industries.\n   - However, some roles lack specific details on duration and seniority, which makes it difficult to fully assess the depth of experience.\n\n3. **Project Quality and Impact:**\n   - The projects listed, such as \"LOTH\" and \"SUGAR VIETNAM,\" show a commitment to social impact and community service, which is commendable. These projects demonstrate leadership and organizational skills, as well as the ability to manage and execute initiatives with tangible outcomes.\n   - The impact of these projects, such as raising funds and supporting education for underprivileged students, adds value to the candidate's profile.\n\n4. **Skills Alignment with Requirements:**\n   - The candidate lists a range of technical and soft skills, including proficiency in Google Suite, Microsoft Office, and project management, which are applicable to many professional environments.\n   - Language skills in English, Vietnamese, and Dutch indicate cultural adaptability and communication skills, although the intermediate level in English may be a limitation depending on the role's requirements.\n\n5. **Other Relevant Factors:**\n   - The candidate has received several scholarships and awards, which highlight academic excellence and recognition in competitive environments. This is a strong indicator of potential and capability.\n   - The lack of a detailed introduction and incomplete contact information (e.g., missing LinkedIn profile) may hinder networking opportunities and the ability to present a comprehensive professional image.\n\nOverall, the candidate's strong academic background, diverse professional experiences, and commitment to impactful projects make them a viable candidate, but the lack of detailed information in some areas and intermediate English proficiency may require further consideration depending on the specific role requirements."
+}

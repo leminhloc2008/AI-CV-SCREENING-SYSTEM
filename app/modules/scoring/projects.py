@@ -4,6 +4,7 @@ import os
 from app.models.resume import ProjectItem
 from app.models.scoring_rules import SCORING_RULES
 from typing import List, Optional
+from app.utils.openai_client import openai_client
 
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
@@ -12,7 +13,7 @@ def infer_tech_stack_relevance(tech: str) -> int:
     """
     Use LLM to infer tech stack relevance if not found in the JSON file.
     """
-    client = OpenAI(api_key=openai_api_key)
+    client = openai_client.get_client()
     
     prompt = f"""
     Based on the following tech stack, provide a relevance score between 0 and 25, where 25 is the highest.
@@ -37,24 +38,11 @@ def infer_tech_stack_relevance(tech: str) -> int:
 
 def calculate_projects_score(projects: List[ProjectItem]) -> float:
     """
-    Calculate the projects score with LLM fallback for unknown tech stacks.
+    Calculate Projects Score.
+    Each project is worth 5 points, capped at 20 points.
     """
-    total_score = 0.0
-
-    for project in projects:
-        # Tech Stack (25%)
-        tech_score = infer_tech_stack_relevance(project.tech) * SCORING_RULES["projects"]["tech"]
-        
-        # GitHub Link (20%)
-        link_score = 20 if project.link else 0
-        
-        # Description (40%)
-        description_score = calculate_description_score(project.description) * SCORING_RULES["projects"]["description"]
-        
-        # Total Project Score
-        total_score += tech_score + link_score + description_score
-
-    return total_score
+    score = len(projects) * 5
+    return min(score, 20)
 
 def calculate_description_score(description: str) -> int:
     """

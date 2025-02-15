@@ -1,0 +1,84 @@
+{
+  "file_name": "CV Hung.pdf",
+  "processed_at": "2025-02-15T11:29:38.475582",
+  "cv_data": {
+    "name": "Hung Nguyen",
+    "location": "Lahti, Finland",
+    "social": [
+      "Linkedin"
+    ],
+    "email": "nguyenhuynhquanghung2005@gmail.com",
+    "linkedin": "",
+    "phone": "+358417231410",
+    "intro": "",
+    "education": [
+      {
+        "school": "LAB University of Applied Sciences",
+        "class_year": "Expected 2026",
+        "major": "International Business",
+        "minor": null,
+        "gpa": 4.6
+      }
+    ],
+    "professional_experience": [
+      {
+        "company": "Junction",
+        "location": "Lahti, Finland",
+        "position": "Volunteer in blogging team, Marketing",
+        "seniority": "",
+        "duration": "March 2024 – Now",
+        "description": "Building content strategy for Junction website. Doing keywords research, writing blogs for Junction when the hackathon events prepare to take place. Proofreading and auditing the writing for SEO."
+      },
+      {
+        "company": "LAB University of Applied Sciences",
+        "location": "Lahti, Finland",
+        "position": "Teaching assistant",
+        "seniority": "",
+        "duration": "Jan 2024 - Now",
+        "description": "Helping a group of 10 students in Business Mathematics with difficulty and misunderstandings. Creating additional questions for students to practice and understand the math questions. Doing the exam invigilation and grading their results."
+      }
+    ],
+    "projects": [],
+    "awards": [],
+    "certifications": [
+      {
+        "name": "Content Writing",
+        "link": "",
+        "org": "Udemy"
+      },
+      {
+        "name": "Advertising on Meta",
+        "link": "",
+        "org": "Meta"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Technical Skills",
+        "list": [
+          "SEO",
+          "Content writing",
+          "Paid advertising",
+          "Social media marketing"
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "education": 100,
+    "experience": 85,
+    "projects": 0.0,
+    "awards": 0.0,
+    "certifications": 90
+  },
+  "weighted_scores": {
+    "education": 15.0,
+    "experience": 21.25,
+    "projects": 0.0,
+    "awards": 0.0,
+    "certifications": 4.5
+  },
+  "status": "Fail",
+  "total_score": 40.75,
+  "ai_reason": "The resume received a Fail status due to several key factors:\n\n1. **Education Quality and Relevance**: While the candidate is pursuing a degree in International Business with a high GPA, the education is still in progress with an expected completion in 2026. This indicates a lack of completed formal education, which may be a requirement for certain positions.\n\n2. **Professional Experience Depth and Relevance**: The candidate has limited professional experience, with both roles starting in 2024 and currently ongoing. The roles are entry-level (volunteer and teaching assistant) and may not demonstrate sufficient depth or seniority for more advanced positions. Additionally, the experience is primarily in content strategy and teaching assistance, which may not align with more diverse business roles.\n\n3. **Project Quality and Impact**: There are no projects listed, which could demonstrate practical application of skills and impact in real-world scenarios. Projects are often crucial for showcasing initiative and the ability to deliver results.\n\n4. **Skills Alignment with Requirements**: The skills listed (SEO, content writing, paid advertising, social media marketing) are relevant to marketing roles but may not be comprehensive enough for broader business roles. The lack of technical or analytical skills could be a limitation depending on the job requirements.\n\n5. **Other Relevant Factors**: The resume lacks a personal introduction or summary, which could provide context and highlight the candidate's career goals and motivations. Additionally, the absence of awards or notable achievements may suggest a lack of distinction in the candidate's academic or professional journey.\n\nOverall, the resume lacks depth in professional experience, completed education, and demonstrable impact through projects or achievements, which are critical for a pass status."
+}

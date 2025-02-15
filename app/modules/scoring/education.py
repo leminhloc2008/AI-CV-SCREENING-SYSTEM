@@ -5,6 +5,7 @@ from app.models.resume import EducationItem
 from app.models.scoring_rules import SCORING_RULES
 from app.utils.json_lookup import get_university_score
 from typing import List
+from app.utils.openai_client import openai_client
 
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
@@ -13,7 +14,7 @@ def infer_university_reputation(university: str) -> int:
     """
     Use LLM to infer university reputation if not found in the JSON file.
     """
-    client = OpenAI(api_key=openai_api_key)
+    client = openai_client.get_client()
     
     prompt = f"""
     Based on the following university name, provide a reputation score between 0 and 20, where 20 is the highest reputation.
@@ -36,26 +37,23 @@ def infer_university_reputation(university: str) -> int:
     except:
         return 10  # Default score if parsing fails
 
-def calculate_education_score(education: List[EducationItem]) -> float:
+def calculate_education_score(education_items: List[EducationItem]) -> float:
     """
-    Calculate the education score with LLM fallback for unknown universities.
+    Calculate Education Score.
+    Use the best (maximum) GPA among education items.
+    GPA (on a 4.0 scale) is scaled to 30 points.
     """
-    total_score = 0.0
-
-    for edu in education:
-        # Get university score from JSON or LLM fallback
-        university_score = get_university_score(edu.school)
-        if university_score == 10:  # Default score for unknown universities
-            university_score = infer_university_reputation(edu.school)
-        
-        school_score = university_score * SCORING_RULES["education"]["school"]
-        major_score = 30 if is_technical_major(edu.major) else 0
-        gpa_score = 10 if edu.gpa and edu.gpa >= 3.2 else (5 if edu.gpa and edu.gpa >= 2.8 else 0)
-        class_score = calculate_class_score(edu.class_year)
-        
-        total_score += school_score + major_score + gpa_score + class_score
-
-    return total_score
+    scores = []
+    for edu in education_items:
+        if edu.gpa is not None:
+            try:
+                scores.append((float(edu.gpa) / 4.0) * 30)
+            except Exception:
+                continue
+    if scores:
+        # Use the highest education score
+        return min(max(scores), 30)
+    return 0.0
 
 def is_technical_major(major: str) -> bool:
     """

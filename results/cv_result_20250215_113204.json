@@ -1,0 +1,122 @@
+{
+  "file_name": "ProjectX_CV_Duong Gia Han.pdf",
+  "processed_at": "2025-02-15T11:32:04.232067",
+  "cv_data": {
+    "name": "Han Duong Gia",
+    "location": "Ho Chi Minh, VietNam",
+    "social": [
+      "https://github.com/giahan1305"
+    ],
+    "email": "hangiaduong1305@gmail.com",
+    "linkedin": "",
+    "phone": "(+84) 039 777 4304",
+    "intro": "I'm a Computer Science student excited about Data Science. Skilled in programming and eager to use data to solve problems. I'm ready to apply my knowledge and learn more in this field.",
+    "education": [
+      {
+        "school": "University of Science - Vietnam National University, Ho Chi Minh City",
+        "class_year": "2025",
+        "major": "Information Technology – Specialization: Computer Science",
+        "minor": null,
+        "gpa": 3.68
+      }
+    ],
+    "professional_experience": [],
+    "projects": [
+      {
+        "name": "Linear Regression",
+        "link": null,
+        "tech": "K-fold, Cross-Validation Algorithm",
+        "duration": "",
+        "description": "Training to have the best subdataset in train, test dataset using K-fold, Cross-Validation Algorithm. Experimented with training data in a lot of models."
+      },
+      {
+        "name": "Decision Tree",
+        "link": null,
+        "tech": "Decision Tree method",
+        "duration": "",
+        "description": "Conducted comprehensive data analysis employing the Decision Tree method. Uncovered valuable insights and patterns within the data, informing informed decision-making processes."
+      },
+      {
+        "name": "FIM",
+        "link": null,
+        "tech": "Tree Projection method",
+        "duration": "",
+        "description": "Applied the Tree Projection method to conduct a thorough analysis of churn data. Providing valuable inputs for informed decision-making processes aimed at improving customer retention strategies."
+      },
+      {
+        "name": "Color Compressing",
+        "link": null,
+        "tech": "k-means clustering",
+        "duration": "",
+        "description": "Using k-means clustering to reduce the number of colors in an image. Experimented with handling pixels in the images."
+      },
+      {
+        "name": "PDF-Retriever",
+        "link": null,
+        "tech": "Gradio",
+        "duration": "",
+        "description": "Developed a Vietnamese PDF document query chatbot, emphasizing personalization and data security, ensuring high performance and utility. Designed a web interface using Gradio to enhance user experience and accessibility."
+      },
+      {
+        "name": "Image Processing",
+        "link": null,
+        "tech": "",
+        "duration": "",
+        "description": "Handle the image with many functions like changing brightness, contrast, and flip. Experimented with handling pixels in the images."
+      },
+      {
+        "name": "Minesweeper",
+        "link": null,
+        "tech": "CNF constraints, brute-force, backtracking",
+        "duration": "",
+        "description": "Utilizing CNF constraints for applying brute-force and backtracking techniques. Demonstrated algorithmic expertise in Minesweeper problem-solving, optimizing efficiency and performance."
+      },
+      {
+        "name": "N-queens problem",
+        "link": null,
+        "tech": "UCS, A*, Genetic",
+        "duration": "",
+        "description": "Utilized search algorithms like UCS, A*, Genetic, ensuring optimal solutions. Implemented state-space formulations and successor generation techniques for efficient problem solving."
+      }
+    ],
+    "awards": [],
+    "certifications": [],
+    "skills": [
+      {
+        "name": "Technical Skills",
+        "list": [
+          "EDA",
+          "Statistics",
+          "Microsoft SQL Server",
+          "Python",
+          "Data analysis and visualization [Power BI]"
+        ]
+      },
+      {
+        "name": "Interpersonal Skills",
+        "list": [
+          "Teamwork",
+          "Effective Communicator",
+          "Highly Adaptable"
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "education": 99.2,
+    "experience": 0.0,
+    "projects": 75,
+    "awards": 0.0,
+    "certifications": 0.0
+  },
+  "weighted_scores": {
+    "education": 14.879999999999999,
+    "experience": 0.0,
+    "projects": 15.0,
+    "awards": 0.0,
+    "certifications": 0.0
+  },
+  "status": "Fail",
+  "total_score": 29.88,
+  "ai_reason": "The resume received a Fail status due to the following reasons:\n\n1. **Professional Experience Depth and Relevance**: The resume lacks any professional experience entries. This is a significant gap, especially for a field like Data Science, where practical, real-world experience is highly valued. Employers typically look for internships, part-time roles, or any relevant work experience that demonstrates the application of skills in a professional setting.\n\n2. **Project Quality and Impact**: While the candidate has listed several projects, there is a lack of detail regarding the impact or outcomes of these projects. For instance, there is no information on how these projects were used, any metrics of success, or how they contributed to solving real-world problems. Additionally, the absence of links or references to these projects makes it difficult to verify or assess their quality.\n\n3. **Skills Alignment with Requirements**: Although the candidate lists technical skills relevant to Data Science, such as Python and data analysis, there is no mention of advanced data science tools or frameworks like TensorFlow, PyTorch, or machine learning libraries, which are often expected in this field. The skills section could be more robust and aligned with industry standards.\n\n4. **Education Quality and Relevance**: The education section is strong, with a good GPA and a relevant major. However, without accompanying professional experience or impactful projects, the education alone does not sufficiently demonstrate readiness for a professional role in Data Science.\n\n5. **Lack of Certifications**: The absence of certifications in data science or related fields is a missed opportunity to demonstrate additional expertise and commitment to the field.\n\nOverall, the resume lacks the professional experience and demonstrable project impact that are critical for a successful application in the competitive field of Data Science."
+}

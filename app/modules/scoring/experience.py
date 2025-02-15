@@ -5,6 +5,9 @@ from app.models.resume import ProfessionalExperienceItem
 from app.models.scoring_rules import SCORING_RULES
 from app.utils.json_lookup import get_company_score
 from typing import List
+import re
+from datetime import datetime
+from app.utils.openai_client import openai_client
 
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
@@ -13,7 +16,7 @@ def infer_company_size(company: str) -> int:
     """
     Use LLM to infer company size if not found in the JSON file.
     """
-    client = OpenAI(api_key=openai_api_key)
+    client = openai_client.get_client()
     
     prompt = f"""
     Based on the following company name, provide a size score between 0 and 25, where 25 is the highest.
@@ -36,28 +39,42 @@ def infer_company_size(company: str) -> int:
     except:
         return 10  # Default score if parsing fails
 
-def calculate_experience_score(experience: List[ProfessionalExperienceItem]) -> float:
+def parse_experience_duration(duration: str) -> float:
     """
-    Calculate the experience score with LLM fallback for unknown companies.
+    Parse a duration string (e.g., "2018-01 to 2020-12" or "2018 to 2020")
+    and return the approximate number of months of experience.
     """
-    total_score = 0.0
+    dates = re.findall(r"(\d{4}(?:-\d{2})?)", duration)
+    if len(dates) >= 2:
+        try:
+            try:
+                start = datetime.strptime(dates[0], "%Y-%m")
+            except:
+                start = datetime.strptime(dates[0], "%Y")
+            try:
+                end = datetime.strptime(dates[1], "%Y-%m")
+            except:
+                end = datetime.strptime(dates[1], "%Y")
+            diff = (end.year - start.year) * 12 + (end.month - (start.month if hasattr(start, 'month') else 1))
+            return max(diff, 0)
+        except Exception:
+            return 12  # default if parsing fails
+    return 12  # default duration (12 months) if no dates can be parsed
 
-    for exp in experience:
-        # Get company score from JSON or LLM fallback
-        company_score = get_company_score(exp.company)
-        if company_score == 10:  # Default score for unknown companies
-            company_score = infer_company_size(exp.company)
-        
-        # Rest of the scoring logic
-        company_score = company_score * SCORING_RULES["professional_experience"]["company"]
-        position_score = 25 if is_technical_position(exp.position) else 0
-        description_score = calculate_description_score(exp.description)
-        seniority_score = 5 if exp.seniority.lower() in ["senior", "lead", "manager"] else 0
-        duration_score = 5 if calculate_duration(exp.duration) >= 6 else 0
-        
-        total_score += company_score + position_score + description_score + seniority_score + duration_score
-
-    return total_score
+def calculate_experience_score(experiences: List[ProfessionalExperienceItem]) -> float:
+    """
+    Calculate Experience Score.
+    Sum the months of experience for each entry.
+    60 months (5 years) of total experience yields full 30 points.
+    """
+    total_months = 0
+    for exp in experiences:
+        if exp.duration:
+            total_months += parse_experience_duration(exp.duration)
+        else:
+            total_months += 12  # default 1 year if no duration provided
+    score = (total_months / 60) * 30  # 60 months => 30 points
+    return min(score, 30)
 
 def is_technical_position(position: str) -> bool:
     """

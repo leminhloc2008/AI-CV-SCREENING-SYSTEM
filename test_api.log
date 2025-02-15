@@ -1,0 +1,250 @@
+2025-02-13 21:29:34,497 - ERROR - Please provide the path to your CV file as an argument
+2025-02-13 21:29:34,497 - INFO - Usage: python test_api.py path/to/your/cv.pdf
+2025-02-13 21:30:01,930 - ERROR - Please provide the path to your CV file as an argument
+2025-02-13 21:30:01,931 - INFO - Usage: python test_api.py path/to/your/cv.pdf
+2025-02-13 21:30:05,697 - ERROR - Please provide the path to your CV file as an argument
+2025-02-13 21:30:05,697 - INFO - Usage: python test_api.py path/to/your/cv.pdf
+2025-02-13 21:30:35,298 - ERROR - Please provide the path to your CV file as an argument
+2025-02-13 21:30:35,298 - INFO - Usage: python test_api.py path/to/your/cv.pdf
+2025-02-13 23:06:41,699 - ERROR - Please provide the path to your CV file as an argument
+2025-02-13 23:06:41,701 - INFO - Usage: python test_api.py path/to/your/cv.pdf
+2025-02-13 23:07:45,648 - ERROR - Please provide the path to your CV file as an argument
+2025-02-13 23:07:45,649 - INFO - Usage: python test_api.py path/to/your/cv.pdf
+2025-02-13 23:08:20,386 - INFO - Processing CV: D:\Downloads\NguyenGiaLinh_CVfe-1.pdfpython
+2025-02-13 23:08:20,387 - ERROR - File not found: D:\Downloads\NguyenGiaLinh_CVfe-1.pdfpython
+2025-02-13 23:08:20,387 - ERROR - Failed to process CV
+2025-02-13 23:08:27,943 - INFO - Processing CV: D:\Downloads\NguyenGiaLinh_CVfe-1.pdf
+2025-02-13 23:08:28,014 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-13 23:08:28,015 - INFO - Attempt 1 of 3
+2025-02-13 23:08:57,951 - INFO - Status Code: 500
+2025-02-13 23:08:57,952 - INFO - Response Headers: {'date': 'Thu, 13 Feb 2025 16:08:29 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-13 23:08:57,953 - ERROR - Request failed: 500
+2025-02-13 23:08:57,954 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-13 23:08:59,958 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-13 23:08:59,959 - INFO - Attempt 2 of 3
+2025-02-13 23:09:30,582 - INFO - Status Code: 500
+2025-02-13 23:09:30,582 - INFO - Response Headers: {'date': 'Thu, 13 Feb 2025 16:08:59 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-13 23:09:30,582 - ERROR - Request failed: 500
+2025-02-13 23:09:30,583 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-13 23:09:32,597 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-13 23:09:32,598 - INFO - Attempt 3 of 3
+2025-02-13 23:10:02,819 - INFO - Status Code: 500
+2025-02-13 23:10:02,820 - INFO - Response Headers: {'date': 'Thu, 13 Feb 2025 16:09:31 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-13 23:10:02,820 - ERROR - Request failed: 500
+2025-02-13 23:10:02,820 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-13 23:10:02,821 - ERROR - Max retries reached
+2025-02-13 23:10:02,821 - ERROR - Failed to process CV
+2025-02-13 23:11:30,334 - ERROR - Please provide the path to your CV file as an argument
+2025-02-13 23:11:30,336 - INFO - Usage: python test_api.py path/to/your/cv.pdf
+2025-02-13 23:11:37,812 - INFO - Processing CV: D:\Downloads\NguyenGiaLinh_CVfe-1.pdf
+2025-02-13 23:11:37,818 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-13 23:11:37,818 - INFO - Attempt 1 of 3
+2025-02-13 23:12:13,057 - INFO - Status Code: 500
+2025-02-13 23:12:13,058 - INFO - Response Headers: {'date': 'Thu, 13 Feb 2025 16:11:39 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-13 23:12:13,059 - ERROR - Request failed: 500
+2025-02-13 23:12:13,060 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-13 23:12:15,072 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-13 23:12:15,072 - INFO - Attempt 2 of 3
+2025-02-13 23:12:41,126 - INFO - Status Code: 500
+2025-02-13 23:12:41,126 - INFO - Response Headers: {'date': 'Thu, 13 Feb 2025 16:12:15 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-13 23:12:41,127 - ERROR - Request failed: 500
+2025-02-13 23:12:41,127 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-13 23:12:43,138 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-13 23:12:43,139 - INFO - Attempt 3 of 3
+2025-02-13 23:14:49,095 - INFO - Status Code: 500
+2025-02-13 23:14:49,095 - INFO - Response Headers: {'date': 'Thu, 13 Feb 2025 16:12:42 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-13 23:14:49,097 - ERROR - Request failed: 500
+2025-02-13 23:14:49,097 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-13 23:14:49,097 - ERROR - Max retries reached
+2025-02-13 23:14:49,098 - ERROR - Failed to process CV
+2025-02-13 23:16:50,686 - ERROR - Please provide the path to your CV file as an argument
+2025-02-13 23:16:50,687 - INFO - Usage: python test_api.py path/to/your/cv.pdf
+2025-02-13 23:17:04,274 - INFO - Processing CV: D:\Downloads\NguyenGiaLinh_CVfe-1.pdf
+2025-02-13 23:17:04,275 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-13 23:17:04,275 - INFO - Attempt 1 of 3
+2025-02-13 23:17:40,282 - INFO - Status Code: 500
+2025-02-13 23:17:40,283 - INFO - Response Headers: {'date': 'Thu, 13 Feb 2025 16:17:05 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-13 23:17:40,284 - ERROR - Request failed: 500
+2025-02-13 23:17:40,285 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-13 23:17:42,297 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-13 23:17:42,297 - INFO - Attempt 2 of 3
+2025-02-13 23:18:14,744 - INFO - Status Code: 500
+2025-02-13 23:18:14,745 - INFO - Response Headers: {'date': 'Thu, 13 Feb 2025 16:17:41 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-13 23:18:14,745 - ERROR - Request failed: 500
+2025-02-13 23:18:14,746 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-13 23:18:16,750 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-13 23:18:16,753 - INFO - Attempt 3 of 3
+2025-02-13 23:18:44,006 - INFO - Status Code: 500
+2025-02-13 23:18:44,006 - INFO - Response Headers: {'date': 'Thu, 13 Feb 2025 16:18:16 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-13 23:18:44,007 - ERROR - Request failed: 500
+2025-02-13 23:18:44,007 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-13 23:18:44,007 - ERROR - Max retries reached
+2025-02-13 23:18:44,008 - ERROR - Failed to process CV
+2025-02-14 21:11:28,709 - ERROR - Please provide the path to your CV file as an argument
+2025-02-14 21:11:28,710 - INFO - Usage: python test_api.py path/to/your/cv.pdf
+2025-02-14 21:11:49,392 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 21:11:49,502 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:11:49,502 - INFO - Attempt 1 of 3
+2025-02-14 21:12:11,910 - INFO - Status Code: 500
+2025-02-14 21:12:11,911 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:11:51 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-14 21:12:11,911 - ERROR - Request failed: 500
+2025-02-14 21:12:11,911 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-14 21:12:13,925 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:12:13,925 - INFO - Attempt 2 of 3
+2025-02-14 21:12:33,635 - INFO - Status Code: 500
+2025-02-14 21:12:33,636 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:12:13 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-14 21:12:33,636 - ERROR - Request failed: 500
+2025-02-14 21:12:33,636 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-14 21:12:35,642 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:12:35,642 - INFO - Attempt 3 of 3
+2025-02-14 21:12:59,425 - INFO - Status Code: 500
+2025-02-14 21:12:59,428 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:12:35 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-14 21:12:59,430 - ERROR - Request failed: 500
+2025-02-14 21:12:59,431 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-14 21:12:59,432 - ERROR - Max retries reached
+2025-02-14 21:12:59,433 - ERROR - Failed to process CV
+2025-02-14 21:33:42,976 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 21:33:42,979 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:33:42,979 - INFO - Attempt 1 of 3
+2025-02-14 21:34:07,577 - INFO - Status Code: 500
+2025-02-14 21:34:07,578 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:33:44 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-14 21:34:07,578 - ERROR - Request failed: 500
+2025-02-14 21:34:07,578 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-14 21:34:09,583 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:34:09,584 - INFO - Attempt 2 of 3
+2025-02-14 21:34:28,633 - INFO - Status Code: 500
+2025-02-14 21:34:28,634 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:34:09 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-14 21:34:28,635 - ERROR - Request failed: 500
+2025-02-14 21:34:28,636 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-14 21:34:30,640 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:34:30,640 - INFO - Attempt 3 of 3
+2025-02-14 21:34:52,245 - INFO - Status Code: 500
+2025-02-14 21:34:52,245 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:34:30 GMT', 'server': 'uvicorn', 'content-length': '104', 'content-type': 'application/json'}
+2025-02-14 21:34:52,247 - ERROR - Request failed: 500
+2025-02-14 21:34:52,247 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'tuple' object has no attribute 'education'"}
+2025-02-14 21:34:52,247 - ERROR - Max retries reached
+2025-02-14 21:34:52,247 - ERROR - Failed to process CV
+2025-02-14 21:35:44,442 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 21:35:44,443 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:35:44,443 - INFO - Attempt 1 of 3
+2025-02-14 21:36:15,909 - INFO - Status Code: 500
+2025-02-14 21:36:15,909 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:35:46 GMT', 'server': 'uvicorn', 'content-length': '101', 'content-type': 'application/json'}
+2025-02-14 21:36:15,910 - ERROR - Request failed: 500
+2025-02-14 21:36:15,910 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: module 'datetime' has no attribute 'now'"}
+2025-02-14 21:36:17,923 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:36:17,923 - INFO - Attempt 2 of 3
+2025-02-14 21:36:47,099 - INFO - Status Code: 500
+2025-02-14 21:36:47,099 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:36:16 GMT', 'server': 'uvicorn', 'content-length': '101', 'content-type': 'application/json'}
+2025-02-14 21:36:47,100 - ERROR - Request failed: 500
+2025-02-14 21:36:47,101 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: module 'datetime' has no attribute 'now'"}
+2025-02-14 21:36:49,118 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:36:49,118 - INFO - Attempt 3 of 3
+2025-02-14 21:37:15,079 - INFO - Status Code: 500
+2025-02-14 21:37:15,079 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:36:48 GMT', 'server': 'uvicorn', 'content-length': '101', 'content-type': 'application/json'}
+2025-02-14 21:37:15,081 - ERROR - Request failed: 500
+2025-02-14 21:37:15,082 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: module 'datetime' has no attribute 'now'"}
+2025-02-14 21:37:15,082 - ERROR - Max retries reached
+2025-02-14 21:37:15,082 - ERROR - Failed to process CV
+2025-02-14 21:37:26,877 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 21:37:26,877 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:37:26,878 - INFO - Attempt 1 of 3
+2025-02-14 21:38:13,711 - INFO - Status Code: 200
+2025-02-14 21:38:13,711 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:37:27 GMT', 'server': 'uvicorn', 'content-length': '3571', 'content-type': 'application/json'}
+2025-02-14 21:38:13,712 - INFO - Request successful!
+2025-02-14 21:38:13,714 - INFO - Results saved to: results\cv_result_20250214_213813.json
+2025-02-14 21:42:23,505 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 21:42:23,508 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:42:23,508 - INFO - Attempt 1 of 3
+2025-02-14 21:42:55,779 - INFO - Status Code: 200
+2025-02-14 21:42:55,779 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:42:25 GMT', 'server': 'uvicorn', 'content-length': '4483', 'content-type': 'application/json'}
+2025-02-14 21:42:55,782 - INFO - Request successful!
+2025-02-14 21:42:55,784 - INFO - Results saved to: results\cv_result_20250214_214255.json
+2025-02-14 21:45:57,345 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 21:45:57,345 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:45:57,345 - INFO - Attempt 1 of 3
+2025-02-14 21:46:53,755 - INFO - Status Code: 500
+2025-02-14 21:46:53,756 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:45:58 GMT', 'server': 'uvicorn', 'content-length': '77', 'content-type': 'application/json'}
+2025-02-14 21:46:53,756 - ERROR - Request failed: 500
+2025-02-14 21:46:53,757 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'extracted_data'"}
+2025-02-14 21:46:55,762 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:46:55,763 - INFO - Attempt 2 of 3
+2025-02-14 21:47:47,795 - INFO - Status Code: 500
+2025-02-14 21:47:47,795 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:46:55 GMT', 'server': 'uvicorn', 'content-length': '77', 'content-type': 'application/json'}
+2025-02-14 21:47:47,796 - ERROR - Request failed: 500
+2025-02-14 21:47:47,796 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'extracted_data'"}
+2025-02-14 21:47:49,797 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:47:49,797 - INFO - Attempt 3 of 3
+2025-02-14 21:48:21,932 - INFO - Status Code: 200
+2025-02-14 21:48:21,932 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:47:51 GMT', 'server': 'uvicorn', 'content-length': '4085', 'content-type': 'application/json'}
+2025-02-14 21:48:21,932 - INFO - Request successful!
+2025-02-14 21:48:21,933 - INFO - Results saved to: results\cv_result_20250214_214821.json
+2025-02-14 21:49:30,580 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 21:49:30,581 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:49:30,584 - INFO - Attempt 1 of 3
+2025-02-14 21:49:59,125 - INFO - Status Code: 500
+2025-02-14 21:49:59,125 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:49:32 GMT', 'server': 'uvicorn', 'content-length': '77', 'content-type': 'application/json'}
+2025-02-14 21:49:59,128 - ERROR - Request failed: 500
+2025-02-14 21:49:59,128 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'extracted_data'"}
+2025-02-14 21:50:01,136 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:50:01,136 - INFO - Attempt 2 of 3
+2025-02-14 21:50:20,717 - INFO - Status Code: 500
+2025-02-14 21:50:20,717 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:50:00 GMT', 'server': 'uvicorn', 'content-length': '77', 'content-type': 'application/json'}
+2025-02-14 21:50:20,717 - ERROR - Request failed: 500
+2025-02-14 21:50:20,717 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'extracted_data'"}
+2025-02-14 21:50:22,725 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:50:22,725 - INFO - Attempt 3 of 3
+2025-02-14 21:50:43,695 - INFO - Status Code: 500
+2025-02-14 21:50:43,696 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:50:22 GMT', 'server': 'uvicorn', 'content-length': '89', 'content-type': 'application/json'}
+2025-02-14 21:50:43,696 - ERROR - Request failed: 500
+2025-02-14 21:50:43,696 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: Failed to parse API response"}
+2025-02-14 21:50:43,696 - ERROR - Max retries reached
+2025-02-14 21:50:43,697 - ERROR - Failed to process CV
+2025-02-14 21:56:11,337 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 21:56:11,339 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 21:56:11,339 - INFO - Attempt 1 of 3
+2025-02-14 21:56:45,390 - INFO - Status Code: 200
+2025-02-14 21:56:45,391 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 14:56:12 GMT', 'server': 'uvicorn', 'content-length': '7406', 'content-type': 'application/json'}
+2025-02-14 21:56:45,392 - INFO - Request successful!
+2025-02-14 21:56:45,396 - INFO - Results saved to: results\cv_result_20250214_215645.json
+2025-02-14 22:13:09,008 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 22:13:09,011 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 22:13:09,011 - INFO - Attempt 1 of 3
+2025-02-14 22:13:43,943 - INFO - Status Code: 200
+2025-02-14 22:13:43,944 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 15:13:10 GMT', 'server': 'uvicorn', 'content-length': '7213', 'content-type': 'application/json'}
+2025-02-14 22:13:43,944 - INFO - Request successful!
+2025-02-14 22:13:43,946 - INFO - Results saved to: results\cv_result_20250214_221343.json
+2025-02-14 22:18:00,906 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 22:18:00,906 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 22:18:00,906 - INFO - Attempt 1 of 3
+2025-02-14 22:18:43,640 - INFO - Status Code: 500
+2025-02-14 22:18:43,640 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 15:18:02 GMT', 'server': 'uvicorn', 'content-length': '69', 'content-type': 'application/json'}
+2025-02-14 22:18:43,642 - ERROR - Request failed: 500
+2025-02-14 22:18:43,643 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'scores'"}
+2025-02-14 22:18:45,650 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 22:18:45,651 - INFO - Attempt 2 of 3
+2025-02-14 22:19:20,561 - INFO - Status Code: 500
+2025-02-14 22:19:20,562 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 15:18:45 GMT', 'server': 'uvicorn', 'content-length': '69', 'content-type': 'application/json'}
+2025-02-14 22:19:20,563 - ERROR - Request failed: 500
+2025-02-14 22:19:20,563 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'scores'"}
+2025-02-14 22:19:22,570 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 22:19:22,570 - INFO - Attempt 3 of 3
+2025-02-14 22:19:52,799 - INFO - Status Code: 500
+2025-02-14 22:19:52,800 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 15:19:22 GMT', 'server': 'uvicorn', 'content-length': '69', 'content-type': 'application/json'}
+2025-02-14 22:19:52,800 - ERROR - Request failed: 500
+2025-02-14 22:19:52,800 - ERROR - Error response: {"detail":"Error processing CV: 500: Failed to process CV: 'scores'"}
+2025-02-14 22:19:52,800 - ERROR - Max retries reached
+2025-02-14 22:19:52,800 - ERROR - Failed to process CV
+2025-02-14 22:23:13,729 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 22:23:13,731 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 22:23:13,731 - INFO - Attempt 1 of 3
+2025-02-14 22:23:44,811 - INFO - Status Code: 200
+2025-02-14 22:23:44,812 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 15:23:15 GMT', 'server': 'uvicorn', 'content-length': '7238', 'content-type': 'application/json'}
+2025-02-14 22:23:44,813 - INFO - Request successful!
+2025-02-14 22:23:44,816 - INFO - Results saved to: results\cv_result_20250214_222344.json
+2025-02-14 22:32:30,649 - INFO - Processing CV: C:\Users\Admin\Documents\AI-CV-SCREENING-SYSTEM\cvs\cv1.pdf
+2025-02-14 22:32:30,649 - INFO - Sending request to http://localhost:8000/api/evaluate-cv
+2025-02-14 22:32:30,649 - INFO - Attempt 1 of 3
+2025-02-14 22:33:29,732 - INFO - Status Code: 200
+2025-02-14 22:33:29,733 - INFO - Response Headers: {'date': 'Fri, 14 Feb 2025 15:32:31 GMT', 'server': 'uvicorn', 'content-length': '9846', 'content-type': 'application/json'}
+2025-02-14 22:33:29,733 - INFO - Request successful!
+2025-02-14 22:33:29,733 - INFO - Results saved to: results\cv_result_20250214_223329.json

@@ -1,0 +1,112 @@
+{
+  "file_name": "Duong Phuong Mai _ En.pdf",
+  "processed_at": "2025-02-15T11:32:40.578842",
+  "cv_data": {
+    "name": "Duong Phuong Mai",
+    "location": "Thanh Xuan, Hanoi",
+    "social": [],
+    "email": "maiduongphuong1@gmail.com",
+    "linkedin": "",
+    "phone": "(+84) 88-6304-395",
+    "intro": "Aspiring Marketing Professional with a strong foundation in data analysis and a passion for creating impactful marketing strategies. Experienced in translating marketing strategies into actionable plans and executing them effectively. Possess strong analytical skills with a keen attention to detail. Eager to leverage my skills and knowledge to contribute to your campaigns.",
+    "education": [
+      {
+        "school": "British University Vietnam",
+        "class_year": "2021 - 2024",
+        "major": "Marketing Management",
+        "minor": null,
+        "gpa": null
+      },
+      {
+        "school": "Tomorrow Marketers Academy",
+        "class_year": "2021 - 2022",
+        "major": "Case Mastery, Data Analysis courses",
+        "minor": null,
+        "gpa": null
+      },
+      {
+        "school": "Mazhoc",
+        "class_year": "2023",
+        "major": "Practical SQL for Data analytics",
+        "minor": null,
+        "gpa": null
+      }
+    ],
+    "professional_experience": [
+      {
+        "company": "Meliá Hanoi",
+        "location": "",
+        "position": "Marketing Coordinator Intern",
+        "seniority": "Intern",
+        "duration": "Aug 2023 - Nov 2023",
+        "description": "Designed contents (copywriting, photo and video) for marketing usage under Line Manager's supervision and guidance. Translated Vietnamese to English and vice versa on all important news and press clipping. Generated creative ideas for design that effectively communicate hotel's brand and Food & Beverage promotion. Supported Manager in analyzing the effectiveness of marketing activities to propose adjustment plans."
+      },
+      {
+        "company": "PVcomBank",
+        "location": "",
+        "position": "Strategy and Data Analytics Intern",
+        "seniority": "Intern",
+        "duration": "Jan 2023 - Mar 2023",
+        "description": "Observed competitors’ products and marketing strategies to identify opportunities for new products or services. Drew graphs, infographics to visualize data by using PowerBi. Evaluated and detected anomalies in Financial Model by using Powerpoint. Other tasks: Supported the Customer Experience Management department to translate the new banking application from Vietnamese to English."
+      },
+      {
+        "company": "NHA F Real Estate Media Co., LTD",
+        "location": "",
+        "position": "Content Writer",
+        "seniority": "",
+        "duration": "Jan 2022 - Dec 2022",
+        "description": "Drafted and edited scripts to develop product commercials for 08 YouTube videos. Performed research on current Real Estate and Interior Design trends and audience preference. Discussed ideas and advertising strategies with client. Generated, edited, published and shared engaging content daily on Facebook (e.g. original text, photos, videos and news), increasing more than 50,000 page followers. Customers: INAX, Da Nang Mikazuki, Vinhomes Ocean Park, InterContinental Halong Bay, Samsung Bespoke."
+      }
+    ],
+    "projects": [],
+    "awards": [],
+    "certifications": [],
+    "skills": [
+      {
+        "name": "Tools",
+        "list": [
+          "Microsoft Office",
+          "Adobe Illustrator",
+          "Adobe Premier Pro",
+          "Adobe Photoshop",
+          "Figma",
+          "Canva",
+          "Capcut"
+        ]
+      },
+      {
+        "name": "Languages",
+        "list": [
+          "Vietnamese - Native",
+          "English - Professional"
+        ]
+      },
+      {
+        "name": "Skills",
+        "list": [
+          "Data-driven oriented decision",
+          "Adaptability and multitask",
+          "Good organisation and planning skills",
+          "Strong attention to detail"
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "education": 90,
+    "experience": 85,
+    "projects": 0.0,
+    "awards": 0.0,
+    "certifications": 0.0
+  },
+  "weighted_scores": {
+    "education": 13.5,
+    "experience": 21.25,
+    "projects": 0.0,
+    "awards": 0.0,
+    "certifications": 0.0
+  },
+  "status": "Fail",
+  "total_score": 34.75,
+  "ai_reason": "The resume received a Fail status due to several key factors:\n\n1. **Education Quality and Relevance**: While the candidate is pursuing a degree in Marketing Management, which is relevant, the lack of a completed degree (expected in 2024) may be a concern for roles requiring a completed education. The additional courses in data analysis and SQL are beneficial but do not compensate for the absence of a completed degree.\n\n2. **Professional Experience Depth and Relevance**: The candidate has relevant internships and experience in marketing and data analytics. However, the roles are primarily internships and entry-level, which may not demonstrate sufficient depth or long-term impact in the field. The lack of seniority in the Content Writer role also suggests limited professional growth.\n\n3. **Project Quality and Impact**: There are no projects listed, which could have demonstrated the candidate's ability to apply their skills in real-world scenarios and showcase their impact on specific marketing campaigns or strategies.\n\n4. **Skills Alignment with Requirements**: The skills listed are relevant to marketing and data analysis, but the resume lacks specific achievements or metrics that demonstrate the effective application of these skills. Additionally, the skills are quite general and do not highlight any unique competencies that set the candidate apart.\n\n5. **Other Relevant Factors**: The absence of awards, certifications, and a LinkedIn profile may indicate a lack of professional recognition and networking, which are important in the marketing field. The resume also lacks specific achievements or quantifiable results in the professional experience section, which are crucial for demonstrating impact and effectiveness.\n\nOverall, the resume lacks depth in professional experience, completed education, and demonstrable achievements, which are critical for a passing evaluation."
+}

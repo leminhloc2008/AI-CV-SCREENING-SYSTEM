@@ -1,0 +1,256 @@
+{
+  "file_name": "CV___ENGLISH.pdf",
+  "processed_at": "2025-02-15T11:30:47.093444",
+  "cv_data": {
+    "name": "Lê Minh Lộc",
+    "location": "Da Nang, Vietnam",
+    "social": [
+      "lml-studio.itch.io",
+      "github.com/leminhloc2008",
+      "Codeforces"
+    ],
+    "email": "minhlocle08@gmail.com",
+    "linkedin": "",
+    "phone": "+84 0916 960 653",
+    "intro": "",
+    "education": [
+      {
+        "school": "Le Quy Don High School For the Gifted, Da Nang, Vietnam",
+        "class_year": "2026",
+        "major": "Computer Science",
+        "minor": null,
+        "gpa": 9.1
+      }
+    ],
+    "professional_experience": [
+      {
+        "company": "Full Stack Developer Vietnam",
+        "location": "",
+        "position": "Project Lead",
+        "seniority": "",
+        "duration": "",
+        "description": "Led the development of an Intelligent Safety Monitoring System for Children and Women, securing $70,000 USD in research funding."
+      },
+      {
+        "company": "Da Nang, Vietnam",
+        "location": "",
+        "position": "Research, Full Stack Developer",
+        "seniority": "",
+        "duration": "",
+        "description": "Developed an AI-powered system for elderly and patient monitoring with fall detection and emotion recognition."
+      },
+      {
+        "company": "United States",
+        "location": "",
+        "position": "UI/UX Designer, Web Developer",
+        "seniority": "",
+        "duration": "",
+        "description": "Collaborated on the Generation Connect App, winning a GDUSA Design Award."
+      },
+      {
+        "company": "Da Nang, Vietnam",
+        "location": "",
+        "position": "Research, Full Stack Developer",
+        "seniority": "",
+        "duration": "",
+        "description": "Developed a Social Distancing Violation Monitoring System with computer vision algorithms."
+      },
+      {
+        "company": "Da Nang, Vietnam",
+        "location": "",
+        "position": "Team Leader and Lead Developer",
+        "seniority": "",
+        "duration": "",
+        "description": "Led the development of an Intelligent Psychological Monitoring System for Children during the UNICEF YouthOn Hackathon."
+      },
+      {
+        "company": "Ha Noi, Vietnam",
+        "location": "",
+        "position": "Full Stack Developer",
+        "seniority": "",
+        "duration": "",
+        "description": "Participated in the Google Developer Student Club Hackathon, focusing on fall detection and frontend development."
+      },
+      {
+        "company": "Ha Noi, Vietnam",
+        "location": "",
+        "position": "Lead Programmer",
+        "seniority": "",
+        "duration": "",
+        "description": "Implemented autonomous navigation algorithms for the First Tech Challenge Vietnam."
+      },
+      {
+        "company": "Da Nang, Vietnam",
+        "location": "",
+        "position": "Solo Developer",
+        "seniority": "",
+        "duration": "2021 – 2024",
+        "description": "Developed and published multiple games on Itch.io with over 2000 downloads."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Intelligent Monitoring System to Assist the Elderly and Patients",
+        "link": null,
+        "tech": "Python, machine learning",
+        "duration": "",
+        "description": "Developed a comprehensive monitoring system with fall detection, emotion recognition, and device control."
+      },
+      {
+        "name": "Driver Fatigue Monitoring System",
+        "link": null,
+        "tech": "Computer vision",
+        "duration": "",
+        "description": "Created a system to monitor driver fatigue and trigger alarms to prevent accidents."
+      },
+      {
+        "name": "Social Distancing Analysis System",
+        "link": null,
+        "tech": "OpenCV, machine learning",
+        "duration": "",
+        "description": "Developed a system to monitor social distancing compliance using camera angles and machine learning."
+      },
+      {
+        "name": "Intelligent Psychological Monitoring System for Children",
+        "link": null,
+        "tech": "Emotion recognition algorithms",
+        "duration": "",
+        "description": "Designed a system to monitor children's emotions and detect self-harming behaviors."
+      },
+      {
+        "name": "Participating in 3D CAD for Robot",
+        "link": null,
+        "tech": "Onshape",
+        "duration": "",
+        "description": "Collaborated in designing 3D CAD models for robotics applications."
+      },
+      {
+        "name": "Generation Connect App",
+        "link": null,
+        "tech": "Next.js, Tailwind CSS",
+        "duration": "",
+        "description": "Collaborated to design a mobile application to connect different generations."
+      }
+    ],
+    "awards": [
+      {
+        "contest": "Central Highlands Regional Informatics Olympics",
+        "prize": "Bronze Medal",
+        "description": "Advanced Category (Olympic Tin học Miền Trung Tây Nguyên - Bảng chuyên tin)",
+        "role": null,
+        "link": null,
+        "time": "2023–2024"
+      },
+      {
+        "contest": "Da Nang City Youth Informatics Competition",
+        "prize": "Second Prize",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": "2023–2024"
+      },
+      {
+        "contest": "Regional Youth Informatics Competition",
+        "prize": "Third Prize",
+        "description": "Advanced Category (Tin Học Trẻ vòng khu vực - Bảng chuyên tin)",
+        "role": null,
+        "link": null,
+        "time": "2023–2024"
+      },
+      {
+        "contest": "Da Nang City Science and Technology Competition",
+        "prize": "First Prize",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": "2023–2024"
+      },
+      {
+        "contest": "Samsung Solve for Tomorrow",
+        "prize": "National Champion",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": "2024"
+      },
+      {
+        "contest": "GDUSA Design Awards",
+        "prize": "Top 10% Nationally",
+        "description": "Recognized in annual end-of-year best-of-year competition",
+        "role": null,
+        "link": null,
+        "time": "2024"
+      },
+      {
+        "contest": "City-Level Science and Technology Competition",
+        "prize": "Third Prize",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": "October 2022"
+      },
+      {
+        "contest": "UNICEF YouthOn Hackathon",
+        "prize": "Winner",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": "October 2023"
+      },
+      {
+        "contest": "Google Developer Student Club Hackathon Vietnam",
+        "prize": "Third Prize",
+        "description": "",
+        "role": null,
+        "link": null,
+        "time": "March 2024"
+      },
+      {
+        "contest": "Top 10 National Artificial Intelligence Olympiad (IOAI)",
+        "prize": "Competitor",
+        "description": "Developed solutions for AI and machine learning problems",
+        "role": null,
+        "link": null,
+        "time": "June 2024"
+      }
+    ],
+    "certifications": [],
+    "skills": [
+      {
+        "name": "Programming Languages",
+        "list": [
+          "Python",
+          "C++",
+          "C#",
+          "Java",
+          "JavaScript",
+          "GDScript"
+        ]
+      },
+      {
+        "name": "3D Design and CAD",
+        "list": [
+          "Onshape",
+          "Blender"
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "education": 100,
+    "experience": 80,
+    "projects": 75,
+    "awards": 85,
+    "certifications": 0.0
+  },
+  "weighted_scores": {
+    "education": 15.0,
+    "experience": 20.0,
+    "projects": 15.0,
+    "awards": 12.75,
+    "certifications": 0.0
+  },
+  "status": "Consider",
+  "total_score": 62.75,
+  "ai_reason": "The resume of Lê Minh Lộc received a \"Consider\" status based on the following factors:\n\n1. **Education Quality and Relevance**: \n   - Lê Minh Lộc is currently attending a prestigious high school for the gifted, majoring in Computer Science with a high GPA of 9.1. This indicates strong academic performance and a relevant educational background for a career in technology and software development.\n\n2. **Professional Experience Depth and Relevance**: \n   - The candidate has extensive experience in full-stack development, project leadership, and research, with a focus on AI and monitoring systems. Notable achievements include leading projects that secured significant funding and winning awards, which demonstrate leadership and technical skills.\n   - However, the lack of specific durations for most roles and the absence of seniority levels make it difficult to assess the depth of experience fully.\n\n3. **Project Quality and Impact**: \n   - The projects listed are technically complex and socially impactful, such as systems for monitoring safety and health. These projects align well with the candidate's professional experience and demonstrate the ability to apply technical skills to real-world problems.\n   - The projects are well-documented in terms of technology used, but more information on the outcomes or user adoption would strengthen the impact assessment.\n\n4. **Skills Alignment with Requirements**: \n   - The candidate possesses a strong set of programming skills across multiple languages and platforms, including Python, C++, and JavaScript, which are highly relevant for software development roles.\n   - Skills in 3D design and CAD further enhance the candidate's versatility, particularly for roles involving UI/UX design or robotics.\n\n5. **Awards and Recognition**: \n   - The candidate has received numerous awards in informatics and technology competitions, indicating a high level of competence and recognition in the field. This adds significant value to the candidate's profile.\n\n6. **Other Relevant Factors**: \n   - The candidate's involvement in international and national competitions, as well as hackathons, showcases a proactive approach to learning and applying skills in competitive environments.\n\nOverall, while the candidate demonstrates strong potential and relevant skills, the lack of detailed information on the duration and seniority of professional experiences, as well as the impact of projects, suggests a need for further evaluation. This results in a \"Consider\" status, indicating potential but requiring more information for a definitive decision."
+}

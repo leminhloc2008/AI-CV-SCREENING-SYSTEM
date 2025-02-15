@@ -1,0 +1,136 @@
+{
+  "file_name": "Resume-LongDH.pdf",
+  "processed_at": "2025-02-15T11:32:21.056439",
+  "cv_data": {
+    "name": "Dang Hoang Long",
+    "location": "",
+    "social": [
+      "github.com/NoAtmosphere0",
+      "dhlong.id.vn"
+    ],
+    "email": "dhlong119@gmail.com",
+    "linkedin": "in/long-dang1109",
+    "phone": "+84 091 585 6418",
+    "intro": "Junior with a focus on Pattern Recognition, Deep Learning, and Natural Language Processing. Experienced in researching and currently engaged in personal data-related projects in Machine Learning and Data Analysis. Seeking opportunities to apply skills and contribute to innovative research endeavors.",
+    "education": [
+      {
+        "school": "University of Science, VNU-HCM",
+        "class_year": "Aug 2021 – Present",
+        "major": "Information Technology, B.S.",
+        "minor": null,
+        "gpa": null
+      },
+      {
+        "school": "High school for The Gifted, VNU-HCM",
+        "class_year": "Aug 2018 – May 2021",
+        "major": "English specialization",
+        "minor": null,
+        "gpa": null
+      }
+    ],
+    "professional_experience": [],
+    "projects": [
+      {
+        "name": "The study of “GoLLIE: Annotation Guidelines improve Zero-Shot Information-Extraction (Sainz et al., 2023)”",
+        "link": null,
+        "tech": "",
+        "duration": "Oct 2023 – Dec 2023",
+        "description": "Summarize the research paper’s objectives, methodologies and key findings. Being a leader and giving my teammates invaluable assistance and guidance. Presented the findings in front of my lecturer and the whole class and made great impressions."
+      },
+      {
+        "name": "Data-related Projects",
+        "link": null,
+        "tech": "Computer Vision, Data Analysis, Machine Learning",
+        "duration": "Feb 2023 - Present",
+        "description": "A personal project to hone my skills in Computer Vision, Data Analysis and Machine Learning. Implemented algorithms for image processing, analyzed the illiteracy rate among provinces using GeoJSON data, and implemented the ID3 algorithm for Decision Trees and Sentiment Analysis on IMDB dataset."
+      }
+    ],
+    "awards": [],
+    "certifications": [
+      {
+        "name": "Google Data Analytics Specialization",
+        "link": "",
+        "org": "Google"
+      },
+      {
+        "name": "Google IT Automation with Python Specialization",
+        "link": "",
+        "org": "Google"
+      },
+      {
+        "name": "Google Cloud Skills Boost",
+        "link": "",
+        "org": "Google"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Languages",
+        "list": [
+          "English (IELTS 7.5)",
+          "Vietnamese (Native)"
+        ]
+      },
+      {
+        "name": "Programming Languages",
+        "list": [
+          "Python",
+          "C/C++",
+          "HTML/CSS",
+          "JavaScript",
+          "Markdown"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "list": [
+          "Scikit-learn",
+          "Pytorch",
+          "Tensorflow"
+        ]
+      },
+      {
+        "name": "Other",
+        "list": [
+          "Git",
+          "Data visualization",
+          "Data Analysis",
+          "Jupyter Notebook"
+        ]
+      },
+      {
+        "name": "Soft skills",
+        "list": [
+          "Research",
+          "Self-study",
+          "Interpersonal skill",
+          "Project management",
+          "Presentation skill"
+        ]
+      },
+      {
+        "name": "Database",
+        "list": [
+          "Microsoft SQL Server"
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "education": 90,
+    "experience": 0.0,
+    "projects": 80,
+    "awards": 0.0,
+    "certifications": 90
+  },
+  "weighted_scores": {
+    "education": 13.5,
+    "experience": 0.0,
+    "projects": 16.0,
+    "awards": 0.0,
+    "certifications": 4.5
+  },
+  "status": "Fail",
+  "total_score": 34.0,
+  "ai_reason": "The resume received a Fail status due to several key factors:\n\n1. **Education Quality and Relevance**: \n   - The candidate is currently pursuing a B.S. in Information Technology, which is relevant to the fields of Pattern Recognition, Deep Learning, and NLP. However, there is no GPA provided, which could be a critical metric for evaluating academic performance, especially for a junior candidate with limited professional experience.\n\n2. **Professional Experience Depth and Relevance**: \n   - There is a complete absence of professional experience listed. For a candidate seeking opportunities in research and machine learning, having some form of internship or work experience is crucial to demonstrate practical application of skills and knowledge.\n\n3. **Project Quality and Impact**: \n   - While the candidate has listed projects, the descriptions lack specific outcomes or measurable impacts. The project on \"GoLLIE\" is more academic in nature, and the \"Data-related Projects\" are personal projects without clear evidence of real-world application or impact. Additionally, there are no links or references to these projects, which could provide further validation of the work done.\n\n4. **Skills Alignment with Requirements**: \n   - The skills listed are relevant to the candidate's field of interest. However, without professional experience, it is difficult to assess the depth of these skills. The resume would benefit from more context on how these skills have been applied in practical settings.\n\n5. **Other Relevant Factors**:\n   - The resume lacks a clear location, which could be important for potential employers considering logistical aspects of hiring.\n   - The certifications from Google are relevant and add value, but without professional experience, they may not be sufficient to demonstrate the candidate's capability to apply these skills in a work environment.\n\nOverall, the resume fails to provide sufficient evidence of practical experience and impact, which are critical for a candidate seeking to enter a competitive field like machine learning and data analysis."
+}

@@ -1,4 +1,4 @@
-from openai import OpenAI
+from app.utils.openai_client import openai_client
 from dotenv import load_dotenv
 import os
 from app.models.resume import Resume
@@ -9,7 +9,7 @@ def summarize_resume(resume: Resume) -> str:
     """
     Summarize a resume using OpenAI's API.
     """
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    client = openai_client.get_client()
     
     prompt = f"Please summarize the following resume:\n{resume}"
     
@@ -23,9 +23,7 @@ def summarize_resume(resume: Resume) -> str:
         temperature=0.7
     )
     
-    summary = response.choices[0].message.content
-    
-    return summary
+    return response.choices[0].message.content
 
 def format_resume_for_summary(resume: Resume) -> str:
     """

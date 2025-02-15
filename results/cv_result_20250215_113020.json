@@ -1,0 +1,109 @@
+{
+  "file_name": "CV.pdf",
+  "processed_at": "2025-02-15T11:30:20.492636",
+  "cv_data": {
+    "name": "Đỗ Quỳnh Hương",
+    "location": "Ho Chi Minh City, Vietnam",
+    "social": [],
+    "email": "quynkhuongdo2608@gmail.com",
+    "linkedin": "",
+    "phone": "(+84) 777 064 449",
+    "intro": "",
+    "education": [
+      {
+        "school": "University of Economics and Law",
+        "class_year": "June 2025",
+        "major": "E-Commerce",
+        "minor": null,
+        "gpa": 3.4
+      }
+    ],
+    "professional_experience": [
+      {
+        "company": "Bach Dang Bookstore",
+        "location": "Ho Chi Minh City, Vietnam",
+        "position": "Warehouse Staff",
+        "seniority": "",
+        "duration": "June 2019 - September 2019",
+        "description": "Manage and check documents related to export and import of warehouses, inventory quantities, models and place electronic barcodes on goods."
+      },
+      {
+        "company": "Blue Shirt Tutors Campaign",
+        "location": "Ho Chi Minh City, Vietnam",
+        "position": "Tutor",
+        "seniority": "",
+        "duration": "June 2019 - September 2019",
+        "description": "Be an offline Math tutor for 11th grade students."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Annual Military Project",
+        "link": null,
+        "tech": "Social media channels, designing platforms",
+        "duration": "May 2022 - June 2022",
+        "description": "Create a playground to help students connect with each other during the military semester. Utilized social media channels and designing platforms to create products such as posters, videos, and visual materials for communication."
+      },
+      {
+        "name": "Spring Volunteer Campaign 2023",
+        "link": null,
+        "tech": "",
+        "duration": "January 2023",
+        "description": "In charge of recording and posting information, images, and videos about volunteer activities and events held during the campaign."
+      }
+    ],
+    "awards": [],
+    "certifications": [],
+    "skills": [
+      {
+        "name": "Design skills",
+        "list": [
+          "web and mobile web design",
+          "sketching",
+          "graphic design"
+        ]
+      },
+      {
+        "name": "Other technical skills",
+        "list": [
+          "HTML",
+          "CSS",
+          "Javascript (basic)",
+          "Python (basic)"
+        ]
+      },
+      {
+        "name": "Tools & Software",
+        "list": [
+          "Figma",
+          "Adobe Creative Suite (Photoshop, Illustrator, Premiere Pro)",
+          "Microsoft Office (Word, Excel, Powerpoint)"
+        ]
+      },
+      {
+        "name": "Language",
+        "list": [
+          "English (Intermediate)",
+          "Vietnamese (native)"
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "education": 98.5,
+    "experience": 85,
+    "projects": 80,
+    "awards": 0.0,
+    "certifications": 0.0
+  },
+  "weighted_scores": {
+    "education": 14.774999999999999,
+    "experience": 21.25,
+    "projects": 16.0,
+    "awards": 0.0,
+    "certifications": 0.0
+  },
+  "status": "Consider",
+  "total_score": 52.025,
+  "ai_reason": "The resume for Đỗ Quỳnh Hương received a \"Consider\" status based on the following evaluation criteria:\n\n1. **Education Quality and Relevance**: \n   - The candidate is pursuing a degree in E-Commerce from the University of Economics and Law, expected to graduate in June 2025. The GPA of 3.4 is respectable, indicating a solid academic performance. The major is relevant to roles in digital marketing, e-commerce, and technology sectors.\n\n2. **Professional Experience Depth and Relevance**:\n   - The candidate has limited professional experience, with two short-term roles. The position at Bach Dang Bookstore involved logistical tasks, which may not directly align with e-commerce but demonstrates organizational skills. The tutoring role shows communication and teaching abilities but lacks direct relevance to the candidate's field of study.\n\n3. **Project Quality and Impact**:\n   - The projects listed, such as the Annual Military Project and Spring Volunteer Campaign, demonstrate initiative and involvement in extracurricular activities. These projects highlight skills in social media, design, and communication, which are valuable in e-commerce and digital marketing roles. However, the impact and scale of these projects are not clearly defined.\n\n4. **Skills Alignment with Requirements**:\n   - The candidate possesses a range of design and technical skills, including web design, graphic design, and basic programming (HTML, CSS, Javascript, Python). Proficiency in tools like Figma and Adobe Creative Suite is beneficial for roles in digital content creation. Language skills in English and Vietnamese are advantageous for communication in diverse environments.\n\n5. **Other Relevant Factors**:\n   - The absence of awards and certifications may indicate a lack of formal recognition or specialized training. Additionally, the lack of a LinkedIn profile could be a missed opportunity for professional networking and showcasing a more comprehensive professional background.\n\nOverall, while the candidate shows potential through relevant education and a diverse skill set, the limited professional experience and lack of significant project impact contribute to the \"Consider\" status. Further development in professional roles and project involvement could strengthen the candidate's profile."
+}
